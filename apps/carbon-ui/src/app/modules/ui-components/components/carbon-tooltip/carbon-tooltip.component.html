@@ -1,0 +1,14 @@
+<div class="bx--tooltip--icon">
+  <button class="bx--tooltip__trigger bx--tooltip--icon__top {{uniqueClass}}" aria-label="Filter" attr.data-tooltip-target="#{{uniqueClass}}" attr.data-tooltip-direction="right" >
+    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <g fill-rule="evenodd">
+        <path d="M8 14.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13zM8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" fill-rule="nonzero" />
+        <path fill-rule="nonzero" d="M9 13H7V7h2z" />
+        <circle cx="8" cy="4" r="1" />
+      </g>
+    </svg>
+  </button>
+  <div id="{{uniqueClass}}" data-floating-menu-direction="bottom" class="bx--tooltip" data-avoid-focus-on-open>
+    {{label}}
+  </div>
+</div>
